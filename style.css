@@ -1,0 +1,530 @@
+#commonbody{
+	background-color: #efefef;
+}
+
+body{
+	margin: 0px;
+}
+
+.navbar{
+	background-color: #111111;
+	display: block;
+	height: 60px;
+	width: 100%;
+	padding-left: 1%;
+}
+
+.navbarlogo{
+	display: inline-block;
+	padding-top: 0px;
+	height: 80%;
+	width: 5%;
+	color: #ffffff;
+	padding: 2px;
+	float: left;
+	border: 1px solid #111111;
+	border-radius: 1px;
+	text-align: center;
+}
+
+.navbarbuttons{
+	display: inline-block;
+	height: 20%;
+	width: auto;
+	color: #ffffff;
+	float: left;
+	border: 1px solid #111111;
+	border-radius: 1px;
+	text-align: center;
+	padding : 20px;
+}
+
+.navbarspecialbuttons{
+	display: inline-block;
+	height: 55%;
+	width: auto;
+	color: #ffffff;
+	float: left;
+	border: 1px solid #111111;
+	border-radius: 1px;
+	text-align: center;
+	padding : 10px;
+}
+
+.navbarsearch{
+	display: inline-block;
+	padding-top: 0px;
+	height: 60%;
+	width: 60%;
+	color: #ffffff;
+	float: left;
+	border: 1px solid #000000;
+	border-radius: 1px;
+	text-align: center;
+	background-color: #ffffff;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+.searchcategory{
+	display: inline-block;
+	float: left;
+	width: 5%;
+	height: 45%;
+	background-color: #dddddd;
+	border-right: 0.25px solid #bbbbbb;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	color: #555555;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.searchcategory:hover{
+	background-color: #cccccc;
+	color: #333333;
+}
+
+.searchbutton{
+	display: inline-block;
+	float: right;
+	width: 5%;
+	height: 100%;
+	background-color: #ffba00;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.searchbox{
+	display: inline-block;
+	float: left;
+	width: 87.4%;
+	padding-top: 6px;
+	height: 70%;
+	color: #555555;
+	border: 2px solid #ffffff;
+}
+
+.searchbox:focus{
+	outline: none;
+	border: 2px solid #ffcc00;
+}
+
+.smalltext{
+	font-size: 10px;
+}
+
+.mediumtext{
+	font-size: 15px;
+	display: inline-block;
+	margin: auto;
+}
+
+.mediumlongtext{
+	font-size: 15px;
+	display: inline-block;
+	border: 1px solid #000000;
+	margin-left: 30px;
+}
+
+.bigtext{
+	font-size: 25px;
+	display: inline-block;
+	margin: 5%;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	font-family: "Gill Sans MT";
+}
+
+.bigtextnofontweight{
+	font-size: 25px;
+	display: inline-block;
+	float: left;
+	width: 90%;
+	font-family: "Gill Sans MT";
+}
+
+.searchbutton:hover{
+	background-color: #eea900;
+}
+
+.navbarlogo:hover{
+	border: 1px solid #ffffff;
+}
+
+.navbarbuttons:hover{
+	border: 1px solid #ffffff;
+}
+
+.navbarspecialbuttons:hover{
+	border: 1px solid #ffffff;
+}
+
+p{
+	display: inline;
+}
+
+.logo{
+	display: block;
+	height: 80%;
+	width: 100%;
+	margin: auto;
+	margin-top: 4px;
+}
+
+.logologinpage{
+	display: block;
+	height: 5%%;
+	width: 10%;
+	margin: auto;
+	margin-top: 4px;
+}
+
+.searchlogo{
+	display: block;
+	height: 80%;
+	width: auto;
+	margin: auto;
+	margin-top: 4px;
+}
+
+.flagimage{
+	display: block;
+	height: 100%;
+	width: auto;
+	margin: auto;
+	margin-top: 4px;
+}
+
+.zero{
+	color: #ff9000;
+}
+
+/*Image Slider*/
+
+.imagediv{max-height:360px; min-height:360px;margin: auto; width:70%; display:block; overflow: hidden;}
+.slider{position:relative; width:500%; animation: 15s slidy infinite;}
+.img{display:block; margin:auto; height:300px; float:left; width:20%;}
+
+@keyframes slidy {
+0% { left: 0%; }
+10% { left: 0%; }
+20% { left: -100%; }
+30% { left: -100%; }
+40% { left: -200%; }
+50% { left: -200%; }
+60% { left: -300%; }
+70% { left: -300%; }
+80% { left: -400%; }
+90% { left: -400%; }
+100% { left: 0%; }
+}
+
+/*Product Blocks*/
+
+.productleftmost{
+	display: block;
+	height: 380px;
+	width: 20%;
+	background-color: #ffffff;
+	border-radius: 5%;
+	margin-left: 6%;
+	font-size: 30px;
+	padding: 15px;
+	text-align: left;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.product{
+	display: block;
+	height: 380px;
+	width: 20%;
+	background-color: #ffffff;
+	border-radius: 5%;
+	margin-left: 1%;
+	font-size: 30px;
+	padding: 15px;
+	text-align: left;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.productimage{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	transition: transform 0.2s;
+}
+
+.productimage:hover{
+	transform: scale(1.2);
+}
+
+.productholder1{
+	display: inline-block;
+	margin: auto;
+	text-align: left;
+	width: 45%;
+	height: 25%;
+	float: left;
+	margin: 2px;
+	margin-bottom: 50px;
+}
+
+.productholder2{
+	display: inline-block;
+	margin: auto;
+	text-align: left;
+	width: 45%;
+	height: 25%;
+	float: right;
+	margin: 2px;
+	margin-bottom: 50px;
+}
+
+.loginbox{
+	display: block;
+	margin: auto;
+	border: 0.5px solid #dddddd;
+	border-radius: 5%;
+	background-color: #ffffff;
+	color: #000000;
+	height: auto;
+	width: 18%;
+	padding-bottom: 20px;
+}
+
+.loginformlabels{
+	margin-left: 5%;
+	width: 100%;
+}
+
+.loginforminputs{
+	margin-left: 5%;
+	width: 87%;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.loginbutton{
+	display: block;
+	margin: auto;
+	width: 90%;
+	height: 30px;
+	background-color: #ffcc00;
+	border-radius: 10px;
+}
+
+.loginbutton:hover{
+	background-color: #eebb00;
+}
+
+.loginforminputs:focus{
+	border-color: #ffcc00;
+	outline: none;
+}
+
+hr{
+	height: 1px;
+	background-color: #eeeeee;
+	border: 0px;
+}
+
+.insidediv{
+	float: left;
+}
+
+.copyrighttext{
+	display: block;
+	text-align: center;
+	color: #cccccc;
+}
+
+.productbigimageholder{
+	float: left;
+	margin-top: 10%;
+	margin-left: 8%;
+	height: 500px;
+	width: 30%;
+	text-align: center;
+}
+
+.productpagebigimg{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.productpagesmallimgleftmost{
+	width: 10%;
+	height: auto;
+	display: block;
+	float: left;
+	margin-left: 32.5%;
+	border: 1px solid #000000;
+	border-radius: 3px;
+}
+
+.productpagesmallimg{
+	width: 10%;
+	height: auto;
+	display: block;
+	float: left;
+	margin-left: 2%;
+	border: 1px solid #000000;
+	border-radius: 3px;
+}
+
+.returnicon{
+	width: 8%;
+	height: auto;
+	display: block;
+	float: left;
+	margin-left: 1.9%;
+	margin-right: 80%;
+}
+
+.productpagesmallimgleftmost:hover{
+	border-color: #ff9000;
+}
+
+.productpagesmallimg:hover{
+	border-color: #ff9000;
+}
+
+.productinfo{
+	display: inline-block;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	height: 500px;
+	width: 30%;
+	padding: 2.5%;
+}
+
+.purchaseoptions{
+	display: inline-block;
+	float: left;
+	margin-top: 10%;
+	margin-left: 2%;
+	height: 200px;
+	width: 10%;
+	padding: 1%;
+	border: 1px solid #dddddd;
+	border-radius: 10px;
+}
+
+.fakehr{
+	width: 100%;
+	height: 1px;
+	background-color: #eeeeee;
+	display: inline-block;
+}
+
+.price{
+	color: #aa0000;
+	font-size: 20px;
+}
+
+.despatchinfo{
+	color: #cb5b00;
+	font-size: 20px;
+}
+
+.incalltaxes{
+	margin-left: 7%;
+}
+
+.returnable{
+	display: block;
+	float: left;
+	width: auto;
+	text-align: center;
+	margin-top: 0%;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+select{
+	border-radius: 5px;
+	width: 40px;
+	height: 25px;
+}
+
+.buybutton{
+	margin: auto;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 25px;
+	height: 28px;
+	background-image: linear-gradient(#ffb400, #ff8400);
+	border-radius: 15px;
+}
+
+.buybutton:hover{
+	background-image: linear-gradient(#ff9c00, #df7504);
+}
+
+.addtocartbutton{
+	margin: auto;
+	height: 28px;
+	padding-top: 10px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	text-align: center;
+	background-image: linear-gradient(#ffd200, #ffba00);
+	border-radius: 15px;
+}
+
+.addtocartbutton:hover{
+	background-image: linear-gradient(#ffc600, #ecb203);
+}
+
+.proceedtocheckoutbutton{
+	margin: auto;
+	height: 45px;
+	padding-top: 10px;
+	margin-bottom: 25px;
+	margin-top: 55px;
+	text-align: center;
+	background-image: linear-gradient(#ffd200, #ffba00);
+	border-radius: 15px;
+	width: 25%;
+}
+
+.proceedtocheckoutbutton:hover{
+	background-image: linear-gradient(#ffc600, #ecb203);
+}
+
+.securetransaction{
+	margin-left: 2%;
+	color: #008f98;
+}
+
+.secureicon{
+	width: 6%;
+	height: auto;
+}
+
+.addedtocartholder{
+	width: 75%;
+	margin: auto;
+	height: 200px;
+	border: 5px double #00ae52;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 30px;
+	background-color: #baf0bc;
+	color: #000000;
+	border-radius: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
